@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: #ecf2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  background-color: #fff;
+  display: flex;
+}
+.Result_box {
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+  background-color: rgba(105, 67, 255, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 38px;
+}
+.paragraph_result {
+  color: #cac9ff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #4d21c9;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading_result {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+  color: #fff;
+}
+#p_100 {
+  font-size: 18px;
+}
+#Great {
+  font-size: 32px;
+}
+#par {
+  font-size: 18px;
+  font-weight: 500;
+}
+.bottom_box1 {
+  text-align: center;
+}
+.sumarry_box {
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 38px;
+}
+.box {
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  height: 56px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: space-around;
+  background-color: #fd9f9f;
+  gap: 102px;
+}
+.box1 {
+  display: flex;
+}
+
+button {
+  width: 288px;
+  height: 56px;
+  background-color: #303b59;
+  border: none;
+  border-radius: 128px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 46px;
+}
+#box2 {
+  background-color: #ffd485;
+}
+#box3 {
+  background-color: #b1ffed;
+}
+#box4 {
+  background-color: #c1c7ff;
+}
+.summarry_p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#reaction_color {
+  color: #f55;
+}
+#sumarry_color {
+  color: #ffb21e;
+}
+#verbal_color {
+  color: #00bb8f;
+}
+#visual_color {
+  color: #1125d6;
+}
+.number_bold {
+  color: #303b59;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#light_number {
+  color: #878b97;
+}
+.heading_summary {
+  color: #303b59;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
