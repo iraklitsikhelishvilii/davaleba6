@@ -15,6 +15,9 @@ body {
   border-radius: 32px;
   background-color: #fff;
   display: flex;
+
+  justify-content: space-between;
+  align-items: center;
 }
 .Result_box {
   width: 368px;
@@ -64,10 +67,9 @@ body {
 }
 .sumarry_box {
   display: flex;
-  padding-left: 40px;
   flex-direction: column;
-  justify-content: space-around;
-  padding-top: 38px;
+  padding-right: 40px;
+  gap: 16px;
 }
 .box {
   justify-content: center;
@@ -94,7 +96,7 @@ button {
   font-weight: 700;
   text-align: center;
   color: #fff;
-  margin-bottom: 46px;
+  margin-top: 25px;
 }
 #box2 {
   background-color: #ffd485;
@@ -139,4 +141,5 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-bottom: 15px;
 }
